@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#a33b2b" />
+  <rect x="66" y="66" width="380" height="380" rx="26" fill="none" stroke="#f3eadc" stroke-width="13" opacity="0.92" />
+  <text x="256" y="344" text-anchor="middle" font-family="Songti SC, STSong, Noto Serif CJK SC, Georgia, serif" font-size="280" font-weight="600" fill="#f3eadc">勿</text>
+</svg>
