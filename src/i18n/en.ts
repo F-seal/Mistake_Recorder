@@ -2,7 +2,7 @@ export const en = {
   app: {
     name: "Don't Dos",
     sealCharacter: "勿",
-    tagline: "The things you choose not to do.",
+    tagline: "Yesterday’s mistakes, today’s rules.",
     loading: "Opening your rulebook…",
     bootErrorTitle: "Your rulebook could not open.",
     bootErrorBody: "Nothing was changed. Reload to try again.",

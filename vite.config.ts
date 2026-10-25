@@ -47,9 +47,9 @@ export default defineConfig({
       registerType: "prompt",
       injectRegister: null,
       manifest: {
-        name: "不做清单 · Don't Dos",
-        short_name: "不做清单",
-        description: "一份私人的规矩与失误记录。",
+        name: "昨非 · Don't Dos",
+        short_name: "昨非",
+        description: "昨日之非，今日之守。一份私人的规矩与失误记录。",
         lang: "zh-CN",
         start_url: "./",
         scope: "./",

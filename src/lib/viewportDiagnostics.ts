@@ -117,7 +117,7 @@ export function viewportDiagnosticsReport(): string {
     window.matchMedia("(display-mode: standalone)").matches ||
     (navigator as Navigator & { standalone?: boolean }).standalone === true;
   const header = [
-    "Don't Dos viewport diagnostics",
+    "Zuofei viewport diagnostics",
     `Version: ${APP_VERSION}`,
     `Standalone: ${standalone ? "yes" : "no"}`,
     `User agent: ${navigator.userAgent}`,

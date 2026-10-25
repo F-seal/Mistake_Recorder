@@ -84,7 +84,7 @@ describe("versioned backup", () => {
     expect(json).not.toContain("deepseek");
     expect(json).not.toContain('"settings"');
     expect(backupFilename(new Date(2026, 9, 25))).toBe(
-      "dont-dos-backup-2026-10-25.json",
+      "zuofei-backup-2026-10-25.json",
     );
   });
 

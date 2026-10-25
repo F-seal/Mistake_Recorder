@@ -2,9 +2,9 @@ import type { Dictionary } from "./en";
 
 export const zhCN: Dictionary = {
   app: {
-    name: "不做清单",
+    name: "昨非",
     sealCharacter: "勿",
-    tagline: "把不做的事，记成一条条规矩。",
+    tagline: "昨日之非，今日之守。",
     loading: "正在打开清单…",
     bootErrorTitle: "清单没能打开",
     bootErrorBody: "没有改动任何数据。刷新后再试。",
@@ -259,7 +259,7 @@ export const zhCN: Dictionary = {
     importConfirmBody: (ruleCount: number, breakCount: number) =>
       `备份中有 ${ruleCount} 条规矩和 ${breakCount} 次失误。本机现有记录会被替换。如果不确定，请先导出备份。`,
     importDone: "备份已恢复。",
-    importFailed: "这不是有效的「不做清单」备份文件。",
+    importFailed: "这不是有效的「昨非」备份文件。",
     exportDone: "备份已导出。",
     noData: "还没有可导出的记录。",
     aboutSection: "关于",

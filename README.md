@@ -1,4 +1,6 @@
-# 不做清单 · Don't Dos
+# 昨非 · Don't Dos
+
+昨非 — 觉今是，而昨非。A private ledger for yesterday’s mistakes and today’s rules.
 
 **Live app:** https://f-seal.github.io/Mistake_Recorder/
 

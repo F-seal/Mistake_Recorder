@@ -1,9 +1,9 @@
 {
   "name": "dont-dos",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
-  "description": "A private, local-first rulebook for the things you choose not to do.",
+  "description": "A private, local-first rulebook for yesterday's mistakes and today's rules.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit && vite build",

@@ -27,7 +27,7 @@ export function buildRecordClerkSystemPrompt(
     timeZoneName: "short",
   }).format(now);
 
-  return `You are the record clerk inside "不做清单 / Don't Dos", a private, local-first rulebook. You are not a coach, therapist, or analyst.
+  return `You are the record clerk inside "昨非 / Don't Dos", a private, local-first rulebook. You are not a coach, therapist, or analyst.
 
 RESPONSE LANGUAGE
 Reply entirely in ${language}. Never answer in another language unless the user explicitly asks for a translation. Keep the user's own wording for names and places.

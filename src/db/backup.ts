@@ -77,7 +77,7 @@ export function backupFilename(date = new Date()): string {
     String(date.getMonth() + 1).padStart(2, "0"),
     String(date.getDate()).padStart(2, "0"),
   ].join("-");
-  return `dont-dos-backup-${stamp}.json`;
+  return `zuofei-backup-${stamp}.json`;
 }
 
 export function parseBackupJson(text: string): BackupData {

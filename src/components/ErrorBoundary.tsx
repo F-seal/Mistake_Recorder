@@ -16,7 +16,7 @@ export class ErrorBoundary extends Component<
 
   componentDidCatch(error: Error, info: ErrorInfo): void {
     // Keep the stack for local debugging, never the user's record contents.
-    console.error("Don't Dos render error", error, info.componentStack);
+    console.error("Zuofei render error", error, info.componentStack);
   }
 
   render(): ReactNode {
@@ -24,7 +24,7 @@ export class ErrorBoundary extends Component<
     return (
       <div className="boot-error">
         <div className="boot-error-panel">
-          <h1>清单遇到了一点问题</h1>
+          <h1>昨非遇到了一点问题</h1>
           <p>Something went wrong while opening the rulebook. No data was changed.</p>
           <button
             type="button"
