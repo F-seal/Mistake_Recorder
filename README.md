@@ -86,7 +86,7 @@ python3 scripts/deploy_gh_pages.py \
 
 Keep the deployed origin stable once data exists: IndexedDB and the stored API key are origin-scoped. Export a backup before any deliberate origin move.
 
-## Verified locally
+## Verified
 
 - 39 unit tests across schemas/repositories, revisions, archive behavior, backups, insights, dates, and the AI tool loop.
 - Typecheck and production build.
@@ -95,11 +95,11 @@ Keep the deployed origin stable once data exists: IndexedDB and the stored API k
 - Production CSP, manifest/icon delivery, service-worker registration, and offline reload.
 - DeepSeek CORS preflight from `http://localhost:4173`.
 - A live DeepSeek smoke request with the local key: `deepseek-flash` returned a real `search_rules` tool call (351 tokens, no personal data sent).
-- A production build under the `/dont-dos/` Pages base path, including service-worker scope and offline reload.
+- A production build under the `/Mistake_Recorder/` Pages base path, including service-worker scope and offline reload.
+- The live app at https://f-seal.github.io/Mistake_Recorder/ (2026-10-25): manifest and icons, service-worker scope, offline relaunch with persisted records, HTTPS redirect, and a DeepSeek CORS preflight from the live origin.
 
 ## Still needs the real iPhone
 
 - Keyboard behavior in the AI composer and long form sheets on iOS 15.6.
 - Install from Safari, standalone launch, and the service-worker update prompt.
-- A live AI round-trip from the installed app; the provider itself has been smoke-tested.
-- A final deployed-origin check after hosting is chosen.
+- A live AI round-trip from the installed app; the provider and live-origin CORS have both been checked.
