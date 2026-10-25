@@ -1,0 +1,37 @@
+{
+  "name": "dont-dos",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A private, local-first rulebook for the things you choose not to do.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "icons": "node scripts/generate-icons.mjs",
+    "scan": "python3 scripts/scan_build_secrets.py --dist dist --secret secret/deepseek_apikey.txt secret/github_apikey.txt"
+  },
+  "dependencies": {
+    "dexie": "^4.4.7",
+    "dexie-react-hooks": "^4.4.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.2.0",
+    "fake-indexeddb": "^6.2.6",
+    "sharp": "^0.35.5",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.7",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.5",
+    "workbox-window": "^7.4.1"
+  }
+}
